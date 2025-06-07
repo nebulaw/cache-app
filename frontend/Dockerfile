@@ -5,7 +5,7 @@ FROM node:22-alpine
 WORKDIR /app/frontend
 
 # Install node modules
-COPY package*.json .
+COPY package*.json ./
 RUN npm install
 
 # Copy the project content
