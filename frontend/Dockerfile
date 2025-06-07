@@ -14,8 +14,5 @@ COPY . .
 # Expose next.js port
 EXPOSE 3000
 
-RUN npm run build
-
 # And run the application
-# CMD ["sh", "-c", "npm run build && npm run start"]
-CMD ["npm", "run", "start"]
+CMD ["sh", "-c", "npm install && npm run build && npm run start"]
