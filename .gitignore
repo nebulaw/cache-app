@@ -1,0 +1,22 @@
+.env*
+*.tmp
+*.bak
+*.log
+.vscode/
+.idea/
+
+# Python / Django
+__pycache__/
+.venv/
+venv/
+
+# TypeScript / Next.js
+node_modules/
+.next/
+out/
+*debug.log*
+frontend/.env*
+
+# Docker
+*.seed
+*.pid*
