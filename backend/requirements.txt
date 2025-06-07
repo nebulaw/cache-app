@@ -1,0 +1,14 @@
+asgiref==3.8.1
+Django==5.2.2
+django-concurrency==2.7
+django-cors-headers==4.7.0
+django-redis==5.4.0
+djangorestframework==3.16.0
+gunicorn==23.0.0
+hiredis==3.2.1
+packaging==25.0
+psycopg2-binary==2.9.10
+python-decouple==3.8
+python-redis-lock==4.0.0
+redis==6.2.0
+sqlparse==0.5.3
