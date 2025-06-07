@@ -10,6 +10,12 @@ cache handling in the backend with the following features:
 
 and has a frontend built with Next.js that displays the data.
 
+## Demo
+
+![Cover Image](./media/cover.png)
+
+See [demo video](https://github.com/nebulaw/cache-app/raw/refs/heads/main/media/demo.mp4).
+
 ## Getting Started
 
 This project is divided into two parts - `backend` and `frontend`. The `backend` is a Django application that handles the database operations and implements the cache handling logic. The `frontend` is a Next.js application that fetches data from the `backend` and displays it for demonstration purposes.
@@ -47,7 +53,7 @@ Now you are ready to visit the website at http://localhost:3000.
 
 ### Important Note
 
-When you run the containers for the first time, the database will be created but the sample data will not be loaded. You can load the sample data by running the following command. You can replace the number of sample data with the desired number. It will be persisted in the database and will be used for the next time you run the application.
+When you run the containers for the first time, the database will be created but the sample data will not be loaded. You can load the sample data by running the following command. You can replace the number of sample data with the desired number. It will be persisted in the database and can be used for the next time you run the application too.
 
 ```bash
 docker exec -it cache_app_django python manage.py load_sample_stats --n-sample=16
